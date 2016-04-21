@@ -1,0 +1,5 @@
+Why do we say Java is compiled and interpreted language.
+Because source code (.java files) is compiled into bytecode (.class files) that is then interpreted by a Java Virtual Machine (also known as a JVM) for execution (the JVM can do further optimization but this is anoher story).
+
+What is the advantage over this(being compiled/interpreted)
+Portability. The same bytecode can be executed on any platform as long as a JVM is installed ("compile once, run anywhere").
