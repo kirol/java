@@ -1,0 +1,14 @@
+
+
+A .class file is a compiled .java file.
+
+.java is all text and is human readable.
+.class is binary (usually).
+
+You compile a java file into a class file by going to the command line, navigating to the .java file, and running
+
+javac "c:\the\path\to\your\file\yourFileName.java"
+You must have a java SDK installed on your computer (get it from Oracle), and make sure the javac.exe file is locatable in your computer's PATH environment variable.
+
+Also, check out Java's Lesson 1: Compiling & Running a Simple Program
+http://java.sun.com/developer/onlineTraining/Programming/BasicJava1/compile.html
