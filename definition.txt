@@ -1,0 +1,9 @@
+class A class is the blueprint for creating objects in class-based object-oriented programming; you should learn the basics of OOP and understand what an object is, what a class is, what is inheritance, polymorphism, encapsulation before learning anything else about Java.
+
+package A package is a namespace; it let's you handle naming conflicts. It basically lets you have two classes named Employee, if they are in different packages.
+
+module It probably refers to the way that Java libraries are distributed and used - JAR, WAR, EAR.
+
+component Can be regarded as the base class of GUI in AWT (or JComponent in Swing) or can be seen as a type of EJB - a POJO (Plain Old Java Object) that meets some requirements; it is possible to have other meanings and depends on context.
+
+container In enterprise application you obviously use some libraries and Java EE eventually; the thing about the Java EE library is that it only provides the API interface and not implementation. Then, the application you have written and built is deployed into a container server which comes with the implementation of the Java EE API. There are two types of containers: web containers (only comes to implementation of web specific technologies) and full Java EE containers (comes with implementation of web and other Java EE technologies - naming services, persistence, transactions etc).
