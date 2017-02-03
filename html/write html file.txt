@@ -1,0 +1,22 @@
+If you want to do that yourself, without using any external library, I think a clean way would be to create a "template.html" file with all the static content, like for example:
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" 
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>$title</title>
+</head>
+<body>$body
+</body>
+</html>
+
+Putting a tag like $tag for any dynamic content and then do something like this:
+File htmlTemplateFile = new File("path/template.html");
+String htmlString = FileUtils.readFileToString(htmlTemplateFile);
+String title = "New Page";
+String body = "This is Body";
+htmlString = htmlString.replace("$title", title);
+htmlString = htmlString.replace("$body", body);
+File newHtmlFile = new File("path/new.html");
+FileUtils.writeStringToFile(newHtmlFile, htmlString);
