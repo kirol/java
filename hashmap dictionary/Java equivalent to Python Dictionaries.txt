@@ -1,0 +1,19 @@
+As far as I'm aware (I don't actually use java) dictionaries are just another name for a hashmap/hashtable.
+
+Grabbing code from http://www.fluffycat.com/Java/HashMaps/ it seems they are used in a very similar manner, with a bit of extra java boiler-plate.
+
+
+
+The idea of dictionary and Map is similar. Both contain elements like
+
+key1:value1, key2:value2 ... and so on
+In Java, Map is implemented different ways like HashMap, or TreeMap etc. put(), get() operations are similar
+
+Map map = new HashMap();
+// Put elements to the map
+map.put("Ram", new Double(3434.34));
+map.put("Krishna", new Double(123.22));
+map.put("Hary", new Double(1378.00));
+//to get elements
+map.get("Krishna"); # =123.22
+map.get("Hary"); # = 1378.00 
