@@ -1,0 +1,1 @@
+Instead you install it from Eclipse by opening 'Help > Install New Software...'. In the 'Work with:' field enter the update site URL for example http://dl.google.com/eclipse/inst/codepro/latest/3.6 which is for Eclipse Indigo. But it also works in Eclipse Neon
