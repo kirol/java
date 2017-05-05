@@ -1,0 +1,11 @@
+To check if the current item is the last item in the array list or not: You need to use Iterator not for-each.
+
+ArrayList<String> list = new ArrayList<String>();  
+list.add(calc.n01);
+list.add(calc.n02);
+list.add(calc.n03);
+Iterator iter00 = list.iterator();
+while(iter00.hasNext())
+{
+	String i = (String)iter00.next();
+}

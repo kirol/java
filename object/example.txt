@@ -1,0 +1,3 @@
+JSONObject obj = new JSONObject();
+		obj.put("class", "go.GraphLinksModel");
+		obj.put("nodeKeyProperty", "id");
